@@ -1,0 +1,18 @@
+:root {
+    --color-light: #FFFFFF;
+    --color-dark: #191919;
+    --color-dark-2: #222222;
+    --color-accent: #FF4D01;
+    --color-gray: #888888;
+    --color-gray-dark: #605E5D;
+    --color-gray-light: #989899;
+    --border-color: #191919;
+
+    --font-primary: "Barlow", sans-serif;
+    --font-weight-regular: 400;
+
+    --primary-color: #ff6600;
+    --primary-hover-color: #e05500;
+    --secondary-color: #e76f51;
+    --text-secondary-color: #555;
+  }

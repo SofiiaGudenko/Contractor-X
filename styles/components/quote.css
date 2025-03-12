@@ -1,0 +1,46 @@
+.quote-section {
+  margin-top: 300px;
+  background: url("../../images/get-image.png") no-repeat center center/cover;
+  padding: 80px 0;
+}
+
+.quote__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.quote__text {
+  max-width: 50%;
+}
+
+.quote__title {
+  font-size: 54px;
+  line-height: 62px;
+  color: var(--color-dark);
+  margin-bottom: 20px;
+}
+
+.quote__description {
+  font-size: 18px;
+  line-height: 30px;
+  color: var(--color-gray-dark);
+  margin-bottom: 20px;
+}
+
+.quote__buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.quote__image {
+  max-width: 50%;
+}
+
+.quote__image img {
+  width: 100%;
+  height: auto;
+}

@@ -1,0 +1,134 @@
+.past-projects {
+  padding: 80px 0;
+  background-color: var(--color-light);
+  text-align: left;
+  margin-bottom: 150px;
+}
+
+.past-projects__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: var(--primary-color);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.past-projects__title {
+  font-size: 54px;
+  line-height: 62px;
+  color: var(--color-dark);
+  margin-bottom: 20px;
+}
+
+.past-projects__contain {
+  max-width: 602px;
+}
+
+.past-projects__buttons {
+  margin: 20px 0 40px;
+  display: flex;
+  gap: 15px;
+}
+
+.button__quote {
+  background-color: var(--primary-color);
+  color: var(--color-light);
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button__browse {
+  background-color: transparent;
+  border: 2px solid var(--border-color);
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.carousel {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  margin-top: 80px;
+}
+
+.carousel-track {
+  display: flex;
+  gap: 20px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.project-card {
+  min-width: 45%;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.project-card__image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.project-card__content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: var(--color-light);
+  padding: 20px;
+}
+
+.project-card__title {
+  max-width: 356px;
+  font-size: 34px;
+  line-height: 48px;
+  color: var(--color-light);
+  margin-bottom: 10px;
+}
+
+.project-card__desc {
+  font-size: 18px;
+  line-height: 30px;
+  color: var(--color-light);
+  margin-bottom: 40px;
+}
+
+.project-card__category {
+  display: flex;
+  gap: 5px;
+  border-top: 1px solid var(--color-gray-light);
+  padding-top: 30px;
+  font-size: 18px;
+  line-height: 20px;
+  color: var(--color-light);
+}
+
+.carousel-controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.carousel-button {
+  width: 50px;
+  height: 50px;
+  border: 2px solid var(--border-color);
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.carousel-button.active {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
