@@ -132,3 +132,82 @@
   background-color: var(--primary-color);
   border-color: var(--primary-color);
 }
+
+@media (max-width: 768px) {
+  .past-projects {
+    padding: 60px 0;
+    margin-bottom: 100px;
+    text-align: center;
+  }
+
+  .past-projects__title {
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  .past-projects__contain {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .past-projects__buttons {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .button__quote,
+  .button__browse {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .carousel-track {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .carousel-controls {
+    display: none;
+  }
+  .project-card {
+    min-width: 100%;
+  }
+
+  .project-card__title {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .project-card__desc {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .project-card__category {
+    font-size: 16px;
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .past-projects__title {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .project-card__title {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .project-card__desc {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .carousel-button {
+    width: 40px;
+    height: 40px;
+  }
+}

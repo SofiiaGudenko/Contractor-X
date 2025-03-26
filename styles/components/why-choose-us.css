@@ -109,3 +109,13 @@
   font-size: 14px;
   color: var(--text-secondary-color);
 }
+
+@media (max-width: 768px) {
+  .why-choose-us__row {
+    flex-direction: column;
+  }
+
+  .why-choose-us__image {
+    max-width: 100%;
+  }
+}

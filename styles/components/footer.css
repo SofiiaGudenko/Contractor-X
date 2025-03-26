@@ -109,3 +109,9 @@
   color: var(--primary-color);
   text-decoration: none;
 }
+
+@media (max-width: 768px) { 
+  .footer__container {
+    flex-direction: column;
+  }
+}

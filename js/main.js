@@ -40,3 +40,27 @@ document.addEventListener("DOMContentLoaded", function () {
     100
   );
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  const burgerButton = document.querySelector("[data-js-burger-button]");
+  const navMenu = document.querySelector("[data-js-nav-menu]");
+
+  // Обработчик клика по бургер-кнопке
+  burgerButton.addEventListener("click", function () {
+    // Переключаем класс is-active у бургер-кнопки
+    burgerButton.classList.toggle("is-active");
+    // Переключаем класс is-active у меню
+    navMenu.classList.toggle("is-active");
+    // Блокируем/разблокируем скролл страницы
+    document.body.classList.toggle("no-scroll");
+  });
+
+  // Закрытие меню при клике вне меню
+  navMenu.addEventListener("click", function (event) {
+    if (event.target === navMenu) {
+      burgerButton.classList.remove("is-active");
+      navMenu.classList.remove("is-active");
+      document.body.classList.remove("no-scroll");
+    }
+  });
+});

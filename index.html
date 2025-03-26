@@ -10,7 +10,14 @@
   <body>
     <header class="header">
       <nav class="nav">
-        <div class="nav__menu">
+        <!-- Бургер-кнопка -->
+        <button class="burger-button" aria-label="Open menu" title="Open menu" data-js-burger-button>
+          <span class="burger-button__line"></span>
+          <span class="burger-button__line"></span>
+          <span class="burger-button__line"></span>
+        </button>
+    
+        <div class="nav__menu" data-js-nav-menu>
           <ul class="nav__list">
             <div class="nav__list-item">
               <li class="nav__item"><a href="#">Home</a></li>
@@ -26,13 +33,14 @@
           </ul>
         </div>
       </nav>
+    
       <div class="header__content">
         <h1 class="header__title">We provide effective contracting services</h1>
         <div class="header__content-subtitle">
           <h3 class="header__subtitle">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit
-            varius rhoncus, nullam pulvinar ut sollicitudin dictumst porttitor
-            porttitor quis quisque erat.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit dolor sit varius
+            rhoncus, nullam pulvinar ut sollicitudin dictumst porttitor porttitor
+            quis quisque erat.
           </h3>
           <div class="header__buttons">
             <button class="button button__quote">Get a quote</button>
@@ -380,7 +388,6 @@
           </div>
           <div class="testimonials__carousel">
             <div class="testimonials__track">
-              <!-- Первый отзыв -->
               <div class="testimonial">
                 <div class="testimonial__image">
                   <img src="./images/men-image.png" alt="John Carter" />
@@ -401,7 +408,6 @@
                 </div>
               </div>
 
-              <!-- Второй отзыв -->
               <div class="testimonial">
                 <div class="testimonial__image">
                   <img src="./images/woman-image.png" alt="Lily Wood" />

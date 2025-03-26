@@ -55,3 +55,10 @@
   gap: 28px;
   justify-content: center;
 }
+
+/* Стили для мобильного меню */
+@media (max-width: 768px) {
+  .header__content {
+    z-index: 1;
+  }
+}

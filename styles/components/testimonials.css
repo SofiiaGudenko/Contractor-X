@@ -106,3 +106,10 @@
   background-color: var(--primary-color);
   border-color: var(--primary-color);
 }
+
+
+@media (max-width: 768px) { 
+  .testimonial {
+    flex-direction: column;
+  }
+}
