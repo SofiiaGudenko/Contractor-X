@@ -1,12 +1,15 @@
 .nav {
   position: absolute;
   top: 32px;
-  right: 20%;
+  right: 0;
+  left: 0;
   width: 100%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   z-index: 2;
+  padding: 0 20px; /* Добавляем отступы по бокам */
+  box-sizing: border-box; /* Учитываем padding в ширине */
 }
 
 .nav__menu {

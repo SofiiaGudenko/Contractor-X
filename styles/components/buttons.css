@@ -1,32 +1,32 @@
 .button {
-    padding: 16px 30px;
-    font-size: 18px;
-    line-height: 20px;
-    text-align: center;
-    border: none;
-    cursor: pointer;
-    transition: all 0.3s ease;
-  }
-  
-  .button__quote {
-    min-width: 169px;
-    min-height: 75px;
-    background-color: var(--primary-color);
-    color: var(--color-light);
-  }
-  
-  .button__quote:hover {
-    background-color: var(--primary-hover-color);
-  }
-  
-  .button__services {
-    min-width: 180px;
-    background-color: transparent;
-    color: var(--color-light);
-    border: 2px solid var(--color-light);
-  }
-  
-  .button__services:hover {
-    background-color: var(--color-light);
-    color: var(--color-dark-2);
-  }
+  padding: 16px 30px;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button__quote {
+  min-width: 169px;
+  min-height: 75px;
+  background-color: var(--primary-color);
+  color: var(--color-light);
+}
+
+.button__quote:hover {
+  background-color: var(--primary-hover-color);
+}
+
+.button__services {
+  min-width: 180px;
+  background-color: transparent;
+  color: var(--color-light);
+  border: 2px solid var(--color-light);
+}
+
+.button__services:hover {
+  background-color: var(--color-light);
+  color: var(--color-dark-2);
+}

@@ -8,6 +8,7 @@
   align-items: center;
   text-align: center;
   overflow: hidden;
+  padding: 0 20px;
 }
 
 .header::before {
@@ -25,7 +26,10 @@
   position: relative;
   z-index: 2;
   max-width: 656px;
+  width: 100%;
   margin-bottom: 81px;
+  padding: 0 20px;
+  box-sizing: border-box;
 }
 
 .header__title {
@@ -54,11 +58,22 @@
   display: flex;
   gap: 28px;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
-/* Стили для мобильного меню */
+@media (max-width: 1200px) {
+  .header__title {
+    font-size: 60px;
+    line-height: 72px;
+  }
+}
+
 @media (max-width: 768px) {
   .header__content {
     z-index: 1;
+  }
+
+  .button {
+    width: 100%;
   }
 }
